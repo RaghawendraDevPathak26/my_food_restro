@@ -1,12 +1,13 @@
 .hd{
     display: flex;
-    background-color: blanchedalmond;
+    background-color: aliceblue;
     
 }
 .h1{
+    font-style: oblique;
     color: coral;
     padding: 10px;
-    text-align:center;
+    text-align:left;
     text-decoration-line: underline;
     
 }
@@ -14,9 +15,6 @@
     background-color: burlywood;
     height: 225px;
     width: auto; 
-}
-.search{
-     background-color: blanchedalmond
 }
 .carousel-item img {
   max-width: 100%;
@@ -47,12 +45,15 @@ padding-right: 25%;
     text-decoration-color: burlywood;
 }
 .foot{
+    margin-top: 5px;
     padding: 10px;
-    background-color: burlywood;
+    background-color: aquamarine;
     tab-size: medium;
     text-align: center;
-    margin-top: 10px;
-    
+    align-content: center;
+    align-items: center;
+    border-top-color: black;
+    border-top-style: dashed;
 }
 .item{
     display: flex;
@@ -65,26 +66,27 @@ padding-right: 25%;
     border: solid;
     overflow: hidden;
   padding: 0;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     align-content: center;
     align-items: center;
     text-align: center;
     text-align-last: center;
     justify-content: center;
 }
-.col-md-5{
+.col-md-2{
     text-align: center;
-     margin-left: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+     margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .col-md-3{
    text-align-last: center;
-  margin-left: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 }
 .btn btn-lg btn-primary{
     width: 100%;
@@ -110,18 +112,27 @@ padding-right: 25%;
     }
     .col-md-3{
    text-align-last: left;
-  margin-left: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-    .col-md-5{
+    .col-md-2{
     text-align: left;
-     margin-left: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+     margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
     .col-md-6{
         margin: 2;
         padding: 2;
-    }   
+    } }
+.active{
+    background-color: aliceblue;
+}
+.row{
+    margin-left:2px;
+    border-style: solid;
+    border-color: darkgrey;
+    background-color: aliceblue;
+    
 }
