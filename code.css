@@ -1,0 +1,127 @@
+.hd{
+    display: flex;
+    background-color: blanchedalmond;
+    
+}
+.h1{
+    color: coral;
+    padding: 10px;
+    text-align:center;
+    text-decoration-line: underline;
+    
+}
+.pic{
+    background-color: burlywood;
+    height: 225px;
+    width: auto; 
+}
+.search{
+     background-color: blanchedalmond
+}
+.carousel-item img {
+  max-width: 100%;
+  height: 400px;
+padding-left: 25%;
+padding-right: 25%;
+    margin: 0,0,0,0;
+}
+.carousel-caption {
+  text-align: center;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+ 
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: cornsilk;
+
+  text-decoration-line: underline;
+  
+}
+.carousel-caption h5{
+    text-decoration-color: burlywood;
+}
+.foot{
+    padding: 10px;
+    background-color: burlywood;
+    tab-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.item{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.col-md-4{
+    width: 175px;
+    height: 150px;
+    border: solid;
+    overflow: hidden;
+  padding: 0;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    text-align-last: center;
+    justify-content: center;
+}
+.col-md-5{
+    text-align: center;
+     margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.col-md-3{
+   text-align-last: center;
+  margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn btn-lg btn-primary{
+    width: 100%;
+}
+.button{
+     text-align-last: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.col-md-6{
+    text-align: left;
+}
+@media screen and (max-width:435px){
+    .hd{
+        display: block;
+    }
+    .pic{
+       background-color: burlywood;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+    .col-md-3{
+   text-align-last: left;
+  margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .col-md-5{
+    text-align: left;
+     margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .col-md-6{
+        margin: 2;
+        padding: 2;
+    }   
+}
