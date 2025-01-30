@@ -126,9 +126,10 @@ padding-right: 25%;
         margin: 2;
         padding: 2;
     }
-    .d-block w-100{
-        width:40%;
-        height:20%
+}
+@media screen and (max-width:850px) {
+    .carousel-item img {
+        height: 200px;
     }
 }
 .active{
